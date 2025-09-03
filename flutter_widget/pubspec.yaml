@@ -81,6 +81,7 @@ flutter:
         - asset: assets/fonts/mld.ttf
           style: normal
     
-  
+  assets:
+    - assets/image/
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
