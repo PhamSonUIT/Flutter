@@ -30,9 +30,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
+          
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [Colors.amber, Colors.red, Colors.blue],
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomRight,
+                  ),
+                  border: Border.all(width: 2, color: Colors.black),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Container(
+                  height: 48,
+                  width: 100,
+                  // color: Colors.amber,
+                ),
+              ),
               Text("Hello Word"),
               // Text(
               //   "Helllo word",
